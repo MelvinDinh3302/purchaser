@@ -77,7 +77,13 @@ form label[for=mastercard] {
 /* This is the code you should have students write*/
 /*** BEGIN HERE ***/
 /*Make sure to comment out line 32 above*/
-
+#name, #email, #phone, #pass, #street, #city, #state
+#zip, #country, #cardnumber, #secure, #namecard
+{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
 
 
 
